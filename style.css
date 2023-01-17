@@ -21,6 +21,23 @@
 /* TWO BLOCKS (CARDS) AND TWO PICTURES */
 
 /* ABSTRACT CONTENT */
+.abstract {
+background-color: var(--grey-20);
+padding: 90px;
+margin-top: -5px;
+}
+
+.buttonschedule {
+  background-color: var(--accent-red);
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  border-radius: 7px;
+}
 
 /* IMG - _DSF8508.jpg - _DSF8566.jpg */
 main img{
@@ -31,5 +48,5 @@ main img{
 .quote {
   background-color: var(--background-grey);
   padding: 90px;
-
+  margin-top: -5px;
 }
