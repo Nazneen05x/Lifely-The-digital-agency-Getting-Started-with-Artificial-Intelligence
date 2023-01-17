@@ -30,5 +30,6 @@ main img{
 /* DICTIONARY/QUOTE  */ 
 .quote {
   background-color: var(--background-grey);
+  padding: 90px;
 
 }
