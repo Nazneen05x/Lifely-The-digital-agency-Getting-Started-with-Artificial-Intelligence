@@ -3,4 +3,32 @@
   margin: 0;
 }
 
+:root {
+  --background-grey: #F6F6F4;
+  --grey-20: #EAEAE6;
+  --accent-red: #FF6B6B;
+}
 
+
+
+/* HEADER CONTENT  */
+
+
+
+
+
+
+/* TWO BLOCKS (CARDS) AND TWO PICTURES */
+
+/* ABSTRACT CONTENT */
+
+/* IMG - _DSF8508.jpg - _DSF8566.jpg */
+main img{
+  width: 100%;
+}
+
+/* DICTIONARY/QUOTE  */ 
+.quote {
+  background-color: var(--background-grey);
+
+}
