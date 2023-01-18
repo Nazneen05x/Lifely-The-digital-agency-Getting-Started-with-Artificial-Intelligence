@@ -22,9 +22,9 @@
 
 /* ABSTRACT CONTENT */
 .abstract {
-background-color: var(--grey-20);
-padding: 90px;
-margin-top: -5px;
+  background-color: var(--grey-20);
+  padding: 90px;
+  margin-top: -5px;
 }
 
 .buttonschedule {
