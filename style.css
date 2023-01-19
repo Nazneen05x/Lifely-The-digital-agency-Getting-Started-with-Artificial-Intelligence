@@ -33,8 +33,9 @@ body{
 /* ABSTRACT CONTENT */
 .abstract {
   background-color: var(--grey-20);
-  padding: 90px;
+  padding: 17px;
   margin-top: -5px;
+  width: 100%;
 }
 
 .buttonschedule {
@@ -47,7 +48,30 @@ body{
   display: inline-block;
   font-size: 16px; 
   border-radius: 7px;
+}
 
+.concept {
+  position: relative;
+  /* float: right; */
+  top: -6em;
+  right: -2em;
+}
+
+.applyAI {
+  margin-top: 0.4em;
+  line-height: 150%;
+}
+
+.info {
+  margin-top: -18.6em;
+}
+
+.h2{
+  margin-top: 5em;
+}
+
+a {
+  
 }
 
 /* IMG - DSF8508.jpg - DSF8566.jpg */
@@ -74,9 +98,6 @@ main img{
   float: right;
   top: -1em;
   right: -1em;
-  
-  /* shape-outside: circle(50%);
-  shape-margin: 2rem; */
 }
 
 
