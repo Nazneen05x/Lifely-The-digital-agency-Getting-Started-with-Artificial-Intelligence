@@ -58,16 +58,24 @@ main img{
 /* DICTIONARY/QUOTE  */ 
 .quote {
   background-color: var(--background-grey);
-  padding: 56px;
+  padding: 17px;
   margin-top: -5px;
   width: 100%;
+
+}
+
+.designsprint{
+  margin-top: 0.4em;
 }
 
 .legacy {
   position: relative;
   float: right;
-  top: -2em;
-  right: -5em;
+  top: -1em;
+  right: -1em;
+  
+  /* shape-outside: circle(50%);
+  shape-margin: 2rem; */
 }
 
 
