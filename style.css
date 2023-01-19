@@ -1,6 +1,16 @@
+@font-face {
+font-family: Aktiv Grotesk;
+scr: url(font/AktivGrotesk_Bd.ttf)
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
+}
+
+body{
+  width: 100vw;
 }
 
 :root {
@@ -48,8 +58,11 @@ main img{
 /* DICTIONARY/QUOTE  */ 
 .quote {
   background-color: var(--background-grey);
-  padding: 90px;
+  padding: 56px;
   margin-top: -5px;
+  width: 100%;
+
+  /* font-family: Aktiv Grotesk;  */
 }
 
 
