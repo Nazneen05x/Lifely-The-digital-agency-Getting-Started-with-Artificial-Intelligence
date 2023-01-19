@@ -61,9 +61,15 @@ main img{
   padding: 56px;
   margin-top: -5px;
   width: 100%;
-
-  /* font-family: Aktiv Grotesk;  */
 }
+
+.legacy {
+  position: relative;
+  float: right;
+  top: -2em;
+  right: -5em;
+}
+
 
 
 /* 5 STEPS */
