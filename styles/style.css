@@ -5,12 +5,45 @@
 
 /* -----CUSTOM PROPERTIES----- */
 
+:root{
+  --Background-grey: #F6F6F4;
+  --Grey-20: #EAEAE6;
+  --Accent-red: #FF6B6B;
+  --Grey-50: #C6C5BD;
+  --Grey-70: #9B9A92;
+  --Grey-99: #3C3B34;
+
+}
+
+/* -----FONT STYLE----- */
+
+@font-face{
+  font-family: Aktiv Grotesk;
+  src: url(AktivGrotesk_Bd.ttf);
+}
+
+@font-face{
+  font-family: Aktiv Grotesk;
+  src: url(AktivGrotesk_Lt.ttf);
+}
+
+@font-face{
+  font-family: Aktiv Grotesk;
+  src: url(AktivGrotesk_Md.ttf);
+}
+
+@font-face{
+  font-family: Aktiv Grotesk;
+  src: url(AktivGrotesk_Rg.ttf);
+}
 
 
-/* -----LETTERTYPE----- */
 
 
-/* -----LETTERTYPE STYLING----- */
+
+/* -----BASIC ELEMENTS----- */
+
+/* -----FONT STYLELING----- */
 
 
 
