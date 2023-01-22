@@ -51,9 +51,10 @@ body{
 ul{
   list-style: none;
   line-height: 1.6em;
-  margin-top: 0.5em;
-  margin-bottom: 0.1em;
-  margin-left: 0.5em;
+}
+
+li{
+  margin-right: 0.5em;
 }
 
 a{
@@ -81,6 +82,28 @@ h3 {
 
 /* <-- FOOTER STYLING --> */
 
+/* <-- ARTICLE LIFELY  STYLING --> */
+
+.LIFELY{
+  background-color: var(--Grey-99);
+  color: var(--Background-grey);
+  padding: 17px;
+  padding-left: 21px;
+  margin-top: -5px;
+  width: 100vw;
+}
+
+
+/* <-- ARTICLE SERVICES STYLING --> */
+
+.SERVICES{
+  background-color: var(--Grey-99);
+  color: var(--Background-grey);
+  padding: 17px;
+  padding-left: 21px;
+  margin-top: -5px;
+  width: 100vw;
+}
 
 /* <-- ARTICLE SOLUTIONS STYLING --> */
 
@@ -88,6 +111,7 @@ h3 {
   background-color: var(--Grey-99);
   color: var(--Background-grey);
   padding: 17px;
+  padding-left: 21px;
   margin-top: -5px;
   width: 100vw;
 }
@@ -98,10 +122,12 @@ h3 {
 .TAGLINE{
   background-color: var(--Grey-50);
   padding: 17px;
+  padding-left: 21px;
   margin-top: -5px;
   width: 100vw;
-
+  
 }
+
 
 /* <-- ARTICLE CREDENTIALS STYLING --> */
 
@@ -111,6 +137,7 @@ h3 {
   /* padding: 0.7em; */
   /* padding-bottom: 0.5em; */
   padding: 17px;
+  padding-left: 21px;
   margin-top: -5px;
   width: 100vw;
 }
