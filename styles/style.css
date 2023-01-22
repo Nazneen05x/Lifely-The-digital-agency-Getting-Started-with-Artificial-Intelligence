@@ -41,13 +41,26 @@
 
 
 
-/* -----BASIC ELEMENTS----- */
+/* <---- BASIC ELEMENTS ----> */
 
 body{
-  padding: 2em;
+  /* padding: 2em; */
+  
 }
 
-/* -----FONT STYLELING----- */
+ul{
+  list-style: none;
+  line-height: 1.6em;
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
+  margin-left: 0.5em;
+}
+
+a{
+  color: var(--Accent-red);
+}
+
+/* <---- FONT STYLELING ----> */
 
 p{
   line-height: 1.6em;
@@ -65,4 +78,40 @@ h3 {
   margin-top: 0.5em;
 }
 
+
+/* <-- FOOTER STYLING --> */
+
+
+/* <-- ARTICLE SOLUTIONS STYLING --> */
+
+.SOLUTIONS{
+  background-color: var(--Grey-99);
+  color: var(--Background-grey);
+  padding: 17px;
+  margin-top: -5px;
+  width: 100vw;
+}
+
+
+/* <-- ARTICLE TAGLINE STYLING --> */
+
+.TAGLINE{
+  background-color: var(--Grey-50);
+  padding: 17px;
+  margin-top: -5px;
+  width: 100vw;
+
+}
+
+/* <-- ARTICLE CREDENTIALS STYLING --> */
+
+.CREDENTIALS{
+  background-color: var(--Grey-99);
+  color: white;
+  /* padding: 0.7em; */
+  /* padding-bottom: 0.5em; */
+  padding: 17px;
+  margin-top: -5px;
+  width: 100vw;
+}
 
