@@ -45,6 +45,15 @@
 
 /* -----FONT STYLELING----- */
 
+p{
+  line-height: 1.6;
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+em{
+  margin-top: 0.5;
+}
 
 
 /* -----BACKGROUNDCOLOR----- */
