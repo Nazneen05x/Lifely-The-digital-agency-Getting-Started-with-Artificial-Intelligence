@@ -6,6 +6,8 @@
 /* -----CUSTOM PROPERTIES----- */
 
 :root{
+
+  /* COLOR */
   --Background-grey: #F6F6F4;
   --Grey-20: #EAEAE6;
   --Accent-red: #FF6B6B;
@@ -13,6 +15,8 @@
   --Grey-70: #9B9A92;
   --Grey-99: #3C3B34;
 
+  /* FONT */
+  
 }
 
 /* -----FONT-FAMILY----- */
@@ -51,6 +55,7 @@ body{
 ul{
   list-style: none;
   line-height: 1.6em;
+  padding: 0;
 }
 
 li{
