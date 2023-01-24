@@ -88,6 +88,35 @@ h3 {
 
 /* <-- MAIN --> */
 
+/* <-- SECTION ABSTRACT STYLING --> */
+
+.Abstract {
+  background-color: var(--Grey-20);
+  padding: 46px;
+  padding-left: 21px;
+  margin-top: -5px;
+  width: 100vw;
+} 
+
+img{
+  width: 100%;
+  margin-top: -7em;
+}
+
+
+/* <-- SECTION DICTIONARY/QUOTE STYLING --> */
+
+.DICTIONARY {
+  background-color: var(--Background-grey);
+  padding: 46px;
+  padding-left: 21px;
+  margin-top: -5px;
+  width: 100vw;
+}
+
+
+
+
 
 /* <-- SECTION 5 STEPS  STYLING --> */
 
