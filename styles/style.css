@@ -64,6 +64,7 @@ li{
 
 a{
   color: var(--Accent-red);
+  display: inline-block;
 }
 
 /* <---- FONT STYLELING ----> */
@@ -84,6 +85,51 @@ h3 {
   margin-top: 0.5em;
 }
 
+header{
+ /* background-image: url("/assets/lifely-delivery-transparant-2000x2000.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--Background-grey);
+  /* height: 400px; */
+
+}
+
+.header_img{
+  width: 80%;
+  position: absolute;
+  padding: 1em 0 1em 0 1em;
+  left: 17%;
+  top: 0%;
+}
+
+.header_title{
+  padding: 11em 1em 0 1em;
+ 
+}
+
+.nav_p{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2em;
+  margin-top: -0.5em;
+  margin-right: 0.5em;
+}
+
+.icon_hamburger{
+  margin: 0 0 0 0.1em;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  
+}
+
+.lifely_logo{ 
+ padding: 1em;
+}
 
 
 /* <-- MAIN --> */
@@ -96,13 +142,35 @@ h3 {
   padding-left: 21px;
   margin-top: -5px;
   width: 100vw;
+  position: relative;
+ font-family: Aktiv Grotesk;
+ 
+
 } 
 
-img{
-  width: 100%;
-  margin-top: -7em;
+.img_abstract{
+  width: 80%;
+  position: absolute;
+  padding: 1em 0 1em 0 1em;
+  left: 17%;
+  top: -13%;
 }
 
+/* img{
+  width: 100%;
+  margin-top: -7em;
+  position: absolute;
+} */
+
+.DIV_Abstract{
+  padding-top: 6em;
+}
+
+
+.img_woman{
+  width: 100%;
+
+}
 
 /* <-- SECTION DICTIONARY/QUOTE STYLING --> */
 
@@ -112,14 +180,56 @@ img{
   padding-left: 21px;
   margin-top: -5px;
   width: 100vw;
+  position: relative;
+}
+
+.img_DICTIONARY{
+  width: 80%;
+  position: absolute;
+  padding: 1em 0 1em 0 1em;
+  left: 17%;
+  top: 0%;
+}
+
+.DIV_DICTIONARY{
+  padding-top: 15em;
 }
 
 
-
-
+.img_employees{
+  width: 100%;
+}
 
 /* <-- SECTION 5 STEPS  STYLING --> */
 
+.STEPS{
+background-color: var(--Grey-20);
+padding: 17px;
+padding-left: 21px;
+margin-top: -5px;
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.STEPS > h2 {
+  width: 80%;
+  padding: 0.5em;
+}
+
+
+.DIV_STEPS_1, .DIV_STEPS_2, .DIV_STEPS_3, .DIV_STEPS_4{
+  width: 80%;
+  height: 323px;
+  background: var(--Background-grey);
+  border-radius: 9px;
+  text-align: left;
+  padding: 1.5em;
+  padding-left: 1.5em;
+  align-items: flex-start;
+
+}
 
 
 
@@ -141,11 +251,38 @@ img{
   width: 100vw;
 }
 
+.DIV_CONTACT {
+  text-align: center;
+}
 /* <-- SECTION RELATED STYLING --> */
 
+.RELATED {
+  background-color: var(--Grey-70);
+  padding: 17px;
+  padding-left: 21px;
+  margin-top: -5px;
+  width: 100vw;
+}
 
 
+.RELATED_1, .RELATED_2, .RELATED_3 {
+  background-color: var(--Grey-50);
+  width: 277px;
+  height: 89px;
+  border-radius: 10px;
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin: 1.5em;
+  margin-left: 2.5em;
+  flex-direction: column;
+  justify-content: center;
+} 
 
+.DIV_RELATED{
+  text-align: center;
+}
 
 
 
