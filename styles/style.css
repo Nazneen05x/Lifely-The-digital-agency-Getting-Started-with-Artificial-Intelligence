@@ -156,11 +156,7 @@ nav{
   top: -13%;
 }
 
-/* img{
-  width: 100%;
-  margin-top: -7em;
-  position: absolute;
-} */
+
 
 .DIV_Abstract{
   padding-top: 6em;
@@ -218,9 +214,7 @@ align-items: center;
   padding: 0.5em;
 }
 
-.STEPS > h3 {
-  color: var(--Accent-red);
-}
+
 
 
 .DIV_STEPS_1, .DIV_STEPS_2, .DIV_STEPS_3, .DIV_STEPS_4, .DIV_STEPS_5  {
@@ -256,8 +250,32 @@ align-items: center;
 
 /* <-- SECTION CASES  STYLING --> */
 
+.CASES{
+  background-color: var(--Grey-20);
+  padding: 17px;
+  padding-left: 21px;
+  margin-top: -5px;
+  width: 100vw;
+}
 
+.ruler{
+  background-color: var(--Background-grey);
+  border-radius: 9px;
+  width: 277px;
+  height: 174px;
+  padding-top: 5px;
+}
 
+.ruler_tekst{
+  margin: 2em;
+  padding-top: 0em;
+  
+}
+
+.img_ruller{
+  width: 277px;
+  border-radius: 5px;
+}
 
 
 /* <-- SECTION CONTACT STYLING --> */
