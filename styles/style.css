@@ -219,7 +219,7 @@ align-items: center;
 }
 
 
-.DIV_STEPS_1, .DIV_STEPS_2, .DIV_STEPS_3, .DIV_STEPS_4{
+/* .DIV_STEPS_1, .DIV_STEPS_2, .DIV_STEPS_3, .DIV_STEPS_4, .DIV_STEPS_5{
   width: 80%;
   height: 323px;
   background: var(--Background-grey);
@@ -229,9 +229,24 @@ align-items: center;
   padding-left: 1.5em;
   align-items: flex-start;
 
+} */
+
+.DIV_STEPS_1, .DIV_STEPS_2, .DIV_STEPS_3, .DIV_STEPS_4, .DIV_STEPS_5{
+  background: var(--Background-grey);
+  width: 80%;
+  height: 323px;
+  border-radius: 9px;
+  text-align: left;
+  padding: 1.5em;
+  padding-left: 1.5em;
+  align-items: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5em;
+  /* margin-left: 2.5em; */
 }
-
-
 
 
 
