@@ -156,7 +156,14 @@ nav{
   top: -13%;
 }
 
-
+button{
+  border-radius: 3px;
+  padding: 1em;
+  margin-top: 1em;
+  border: none;
+  background-color: var(--Accent-red);
+  color: var(--Background-grey);
+}
 
 .DIV_Abstract{
   padding-top: 6em;
@@ -258,7 +265,22 @@ align-items: center;
   width: 100vw;
 }
 
-.ruler{
+/* .CASES{
+  background-color: var(--Grey-20);
+  width: 277px;
+  height: 89px;
+  border-radius: 10px;
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin: 1.5em;
+  margin-left: 2.5em;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.ruler, .ruler1{
   background-color: var(--Background-grey);
   border-radius: 9px;
   width: 277px;
@@ -266,13 +288,13 @@ align-items: center;
   padding-top: 5px;
 }
 
-.ruler_tekst{
+.ruler_tekst, .ruler_tekst1{
   margin: 2em;
   padding-top: 0em;
   
 }
 
-.img_ruller{
+.img_ruller, .img_ruller_1{
   width: 277px;
   border-radius: 5px;
 }
@@ -296,7 +318,7 @@ align-items: center;
 .RELATED {
   background-color: var(--Grey-70);
   padding: 17px;
-  padding-left: 21px;
+  padding-left: 8px;
   margin-top: -5px;
   width: 100vw;
 }
