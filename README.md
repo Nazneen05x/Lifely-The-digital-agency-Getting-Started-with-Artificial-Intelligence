@@ -10,6 +10,28 @@ Lifely is een innovatiebureau. We helpen organisaties de juiste technologische s
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+De website is gemaakt in Html Css en klein beetje Javascript. De website is helaas niet desktop maar alleen mobile.
+
+HTML:
+
+Head
+Body
+Header
+Nav
+Main 
+Section
+Article
+Div
+
+CSS:
+Custom Properties
+Hidden
+Show
+Button
+
+Javascript:
+
+Ik heb Javascript gebruikt om de scroll animatie te laten werken. 
 
 ![image](https://user-images.githubusercontent.com/112861261/214784764-57b85ceb-6486-459a-a6be-e2a2ab786f1c.png)
 ## Licentie
