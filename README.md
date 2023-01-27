@@ -1,4 +1,3 @@
-> De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # ....
 
